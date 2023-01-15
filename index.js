@@ -1,4 +1,4 @@
-const listMenu = [
+const listMenuItems = [
   "Nasi ayam",
   "Nasi ikan",
   "Bubur ayam",
@@ -8,19 +8,24 @@ const listMenu = [
   "Gado-gado",
 ];
 
-if (confirm("are you sure to see list menu from us?")) {
+const isWantToSee = confirm("are you sure to see list menu from us?");
+
+if (isWantToSee) {
   alert("OK, please look");
-  function show() {
-    document.write(`<h1>List Menu: </h1>`);
-
-    for (let index = 0; index < listMenu.length; index++) {
-      document.write(`<li>${listMenu[index]}</li>`);
-    }
-
-    document.write("</ol>");
-  }
 } else {
   alert("ok, no problem, maybe next time you could see our menu");
-  output.remove();
-  toggle.remove();
+  showList.remove();
+  appName.remove();
+}
+
+function show() {
+  document.write(`<h1>List Menu: </h1>`);
+
+  for (let index = 0; index < listMenuItems.length; index++) {
+    const menuItem = listMenuItems[index];
+
+    document.write(`<li>${menuItem}</li>`);
+  }
+
+  document.write("</ol>");
 }

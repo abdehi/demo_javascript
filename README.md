@@ -2,4 +2,4 @@
 
 ## Description
 
-This is project for list menu from us restaurant
+This is project for list menu from our restaurant.
