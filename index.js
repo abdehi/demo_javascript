@@ -11,7 +11,7 @@ const listMenu = [
 if (confirm("are you sure to see list menu from us?")) {
   alert("OK, please look");
   function show() {
-    document.write(`<h1>Daftar Menu: </h1>`);
+    document.write(`<h1>List Menu: </h1>`);
 
     for (let index = 0; index < listMenu.length; index++) {
       document.write(`<li>${listMenu[index]}</li>`);
