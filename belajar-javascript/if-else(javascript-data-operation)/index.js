@@ -30,11 +30,10 @@
 //   document.write("</ol>");
 // }
 
-// const calcAverage = function (score1, score2, score3) {
-//   return (score1 + score2 + score3) / 3;
-// };
+const calcAverage = function (score1, score2, score3) {
+  return (score1 + score2 + score3) / 3;
+};
 
-//
 const checkWinner = function (avgDolphins, avgKoalas) {
   if (avgDolphins >= 2 * avgKoalas) {
     console.log(`Dolphins menang (${avgDolphins} vs. ${avgKoalas})`);
