@@ -1,12 +1,12 @@
-const listMenuItems = [
-  "Nasi ayam",
-  "Nasi ikan",
-  "Bubur ayam",
-  "Bakso",
-  "Mie ayam",
-  "Rendang",
-  "Gado-gado",
-];
+// const listMenuItems = [
+//   "Nasi ayam",
+//   "Nasi ikan",
+//   "Bubur ayam",
+//   "Bakso",
+//   "Mie ayam",
+//   "Rendang",
+//   "Gado-gado",
+// ];
 
 // const isWantToSee = confirm("are you sure to see list menu from us?");
 
